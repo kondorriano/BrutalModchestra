@@ -35,22 +35,22 @@ public class FieldEffectsTester : MonoBehaviour
             _SpawnCharacterFieldEffect = false;
             AddCharacterFieldEffect(_CharacterFieldEffectToSpawn);
         }
-        if (_RemoveAllCharacterFieldEffects)
+        else if (_RemoveAllCharacterFieldEffects)
         {
             _RemoveAllCharacterFieldEffects = false;
             RemoveAllCharacterFieldEffects();
         }
-        if (_hasUnit != _TheSlotHasACharacter)
+        else if (_hasUnit != _TheSlotHasACharacter)
         {
             _hasUnit = _TheSlotHasACharacter;
             UpdateAllCharacterFieldEffects();
         }
-        if (_SpawnEnemyFieldEffect)
+        else if (_SpawnEnemyFieldEffect)
         {
             _SpawnEnemyFieldEffect = false;
             AddEnemyFieldEffect(_EnemyFieldEffectToSpawn, _EnemyLocations[_EnemySlotPosition]);
         }
-        if (_RemoveAllEnemyFieldEffects)
+        else if (_RemoveAllEnemyFieldEffects)
         {
             _RemoveAllEnemyFieldEffects = false;
             RemoveAllEnemyFieldEffects();
