@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CreateAssetBundles
 {
-    [MenuItem("Assets/Build AssetBundles")]
+    [MenuItem("Brutal Modchestra Tools/Build AssetBundles")]
     static void BuildAllAssetBundles()
     {
         string assetBundleDirectory = "Assets/AssetBundles";
