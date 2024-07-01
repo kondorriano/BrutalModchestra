@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MoneyChest_OvAC
+  m_Controller: {fileID: 9100000, guid: 34fd51d46e27b0d40949fed3f344c2b8, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 79e3f89d7d2c99f4abf1bec6ac71914f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 274b25fd1ad01e94293eda706eae1653, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9d67c247257bfdc4e84975167ba41a92, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f42520abf7ec76148a2a9238c935f5ff, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 693089beeab7f394092048ee6b10d442, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a5dd1bbbeadabf342ae515a3d2d5d3ef, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 60b6c0f9bef89c24ba0db582714c7dde, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fd3cda6cc17aeef488a45b6e62f891b0, type: 2}
