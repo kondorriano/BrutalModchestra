@@ -7,7 +7,6 @@ public abstract class BaseRoomItemModData : MonoBehaviour
     [Header("Room Item")]
     public SpriteRenderer[] m_ConnectedRenderers = null;
     public BoxCollider2D m_Detector = null;
-
     public abstract string RoomItemType { get; }
 }
 
