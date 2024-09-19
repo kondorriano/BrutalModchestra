@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 #region Game Data
 public interface IGameCheckData
 {
@@ -5,7 +6,7 @@ public interface IGameCheckData
     bool GetBoolData(string variableName);
     bool DidCompleteQuest(string questName);
     bool IsItemUnlocked(string itemName);
-    string[] GetUnlockedCharacters();
+    HashSet<string> GetUnlockedCharacters();
     EnemyKilledSaveData GetEnemyKilledData(string enemyName);
 }
 #endregion

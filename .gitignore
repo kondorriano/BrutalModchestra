@@ -77,3 +77,7 @@ fmod_editor.log
 FMODProject/BrutalOrchestraFMOD/.cache
 FMODProject/BrutalOrchestraFMOD/.unsaved
 FMODProject/BrutalOrchestraFMOD/.user
+
+# My Stuff
+/[Aa]ssets/[Pp]rototyping/*
+/[Aa]ssets/[Pp]rototyping*
