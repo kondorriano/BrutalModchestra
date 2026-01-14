@@ -16,5 +16,6 @@ public enum RoomHandlerType_GameIDs
     Enemy,
     Boss,
     MoneyChest,
-    Treasure
+    Treasure,
+    Bar
 }
